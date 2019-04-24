@@ -1,0 +1,11 @@
+
+    <div class="checknot">
+      <div class="neckdiv" *ngFor="let neck of service.necks; let i = index;" >
+        <input class="neckbox" type="number" [disabled]="service.disabled" min="0" max="12" placeholder="-" [(ngModel)]="neck.note">
+        <img  [ngClass]="getClass(i)"  src="https://vignette.wikia.nocookie.net/battlefordreamisland/images/0/01/Black_hole_completely.PNG/revision/latest?cb=20180228223107">
+      </div>
+    </div>
+    
+
+
+

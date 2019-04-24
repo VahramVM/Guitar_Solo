@@ -1,0 +1,11 @@
+<div class="Play">
+    <form action="">
+        <mat-form-field class="example-full-width">
+            <input name="frame" matInput placeholder="Speed" type="number" [(ngModel)]="service.intervalFrame">
+        </mat-form-field>
+    </form><br>
+    <button class="button" mat-button (click)="Play()" (click)="service.changeDisabled()"> <img
+            src="assets/images/U+25B6.svg.png" width="50%" alt=""></button>
+    <button class="button" mat-button (click)="Stop()"><img src="assets/images/media-pause.png" width="50%"
+            alt=""></button>
+</div>

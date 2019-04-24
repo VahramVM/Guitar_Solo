@@ -1,0 +1,16 @@
+.Play {
+
+    width: 35%;
+    position: fixed;
+    top: 70%;
+    left: 45%;   
+}
+
+.button {
+    position: relative;
+    top: 70%;
+    left: -6%;
+    margin: 2%;
+    background-color: rgb(216, 209, 219); 
+    width: 15%;
+}

@@ -1,0 +1,92 @@
+
+.arrowdiv{
+    top: 36%;
+    /* border: 1px solid red; */
+    position:  fixed;
+    margin-left: 20%; 
+    width: 5%;
+    /* height: 120px; */
+    height: 19%;
+}
+
+.arrowbox{
+    /* border: 1px solid blue; */
+    position:  absolute;
+    margin-left: 10%;
+}
+
+.arrowbox img{
+    width: 100%;
+    height: 100%;
+}
+
+.arrowSinglNote{
+    top: 50%;
+    /* border: 1px solid green; */
+    position:  relative;
+    margin-left: 10%;
+    width: 100%;
+    height: 18%;
+}
+
+.arrowEmptyNote{
+    position:  absolute;
+    margin-left: 10%;
+    width: 100%;
+    height: 10%;
+    opacity: 0;
+}
+
+.stringsbox{
+    top: 31.5%;
+    margin-left: 14%;
+    width: 5%;
+    height: 23%;
+    /* border: 1px solid rgb(249, 253, 0); */
+    position: fixed;
+}
+
+.stringbox{
+    margin: 0.5% 31% -3.5% 34%;
+    height: 18%;
+    /* border: 1px solid blue; */
+    position: relative;
+
+}
+
+.select{
+    width: 15%;
+    height: 10%;
+   margin-left: 6%;
+   top: 75%;
+   position: fixed;
+}
+
+.checkbox {
+    height: 80%;
+    width: 100%; 
+}
+
+.imgDown{
+    
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+    width: 50%;
+    position: relative;
+}
+
+.imgUp{
+    
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+    width: 50%;
+    position: relative;
+    transform: rotate(180deg)
+}
+
+
+
+
+

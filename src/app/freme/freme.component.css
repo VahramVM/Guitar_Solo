@@ -1,0 +1,21 @@
+.framebox{
+    width: 10%;
+    height: 20%;
+    left: 80%;
+    top: 70%;
+    position: fixed;
+}
+
+.button {
+    position: relative;
+    top: 8%;
+    margin: 5%;
+    left: 32%;
+    background-color: rgb(166, 167, 221);
+}
+
+.progress {
+    position: relative;
+    margin-top: 20%;
+}
+

@@ -1,0 +1,19 @@
+<div class="arrowdiv">
+  <div class="arrowbox" [ngClass]="arrowStart()" [style.width.%]="getWidth(20)" [style.top.%]="getTop(20)" [style.bottom.%]="getBottom(20)">
+    <img [ngClass]="imgUpDown()" src="assets/images/arrow-down.png" alt="">
+  </div>
+</div>
+
+<div class="select">
+  <label [ngStyle]="{'color': 'white'}">Up/Down</label> <br>
+  <select [(ngModel)]="service.valuesUpDown">
+    <option value="0">Up</option>
+    <option value="1">Down</option>
+  </select>
+</div>
+
+<div class="stringsbox">
+  <div class="stringbox" *ngFor="let stringchek of service.stringcheks; let i = index">
+    <input class="checkbox" type="checkbox" [disabled]="service.disabled" (change)="getCallChange()" [(ngModel)]="stringchek.cord">
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="framebox">
+    <form action="">
+        <mat-form-field class="example-full-width">
+            <input name="frame" matInput placeholder="Step" (change)="service.changeDisabled()" (mouseover)="abdateInfo()" (change)="changeInterval()" type="number" min="0"  (change)="stringFrame()"
+            (change)="neckFrame()" (change)="pushFrame()" (change)="changeUpDown()" [(ngModel)]="service.frameValue">
+        </mat-form-field>
+    </form>
+
+    <button mat-button class="button" (click)="pushFrame()" (click)="abdateInfo()">Save</button>
+</div>
+
+    <!-- <div class="progress">
+        <mat-progress-bar  value="40"></mat-progress-bar>
+    </div> -->
+<br>
+
+
+<!-- <p>{{service.Frames | json}} <br> <br> </p> -->
+
